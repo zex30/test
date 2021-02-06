@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  font-size: 1rem;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(rgba(92, 127, 227, 0), rgba(92, 127, 227, 0.2), rgba(211, 251, 244, 0)),
+              linear-gradient(rgba(0, 20, 36, 1), rgba(0, 20, 36, 1), rgba(30, 76, 104, 0.49), rgba(0, 20, 36, 1)),
+              linear-gradient(rgba(35, 51, 69, 0.25), transparent);
+  min-width: 320px;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}

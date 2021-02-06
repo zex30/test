@@ -1,0 +1,21 @@
+.channel-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+  @media (min-width: 320px) {
+    max-width: 353px;
+  }
+
+  @media (min-width: 769px) {
+    max-width: 705px;
+  }
+
+  @media (min-width: 1201px) {
+    max-width: 1057px;
+  }
+
+  p {
+    font-weight: 300;
+  }
+}

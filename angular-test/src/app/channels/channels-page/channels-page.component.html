@@ -1,0 +1,6 @@
+<ng-container *ngIf="channels$ | async as channels">
+  <p>{{channels.total}} каналов</p>
+  <div class="channel-container">
+    <channel-card class="channel-page-card" *ngFor="let channel of channels.channelDetails" [channel]="channel"></channel-card>
+  </div>
+</ng-container>
